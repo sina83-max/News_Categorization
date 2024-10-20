@@ -23,9 +23,3 @@ def clean_text(text):
     cleaned_text = ' '.join(tokens)
 
     return cleaned_text
-
-
-sample_text = "Breaking news: The government has just announced a new policy."
-cleaned = clean_text(sample_text)
-print(f"Original: {sample_text}")
-print(f"Cleaned: {cleaned}")
