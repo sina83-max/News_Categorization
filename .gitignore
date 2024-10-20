@@ -1,0 +1,14 @@
+data/raw/*
+data/processed/*
+models/*
+
+
+# ignore the models
+/models/*
+
+
+# ignore the virtual env and python caches
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
