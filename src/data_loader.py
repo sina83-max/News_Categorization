@@ -41,4 +41,4 @@ if data is not None:
     preprocessed_data = preprocess_data(data)
     print(preprocessed_data[['Description', 'cleaned_text']].head())
 
-    save_data(preprocessed_data, 'data/processed/proceesed_ag_mews.csv')
+    save_data(preprocessed_data, 'data/processed/proceesed_ag_news.csv')
