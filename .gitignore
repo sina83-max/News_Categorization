@@ -5,7 +5,7 @@ models/*
 
 # ignore the models
 /models/*
-
+notebooks/models/*
 
 # ignore the virtual env and python caches
 project_venv/
